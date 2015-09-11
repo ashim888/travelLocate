@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#FFECB3</color>
+    <color name="progressBarBack">#e1e1e1</color>
+    <color name="card_color">#ffffff</color>
+    <color name="editTextBack">#e1e1e1</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="navColor">#01080E</color>
+    <color name="light_text">#727272</color>
+    <color name="white_text">#ffffff</color>
+    <color name="dark_text">#212121</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="bg_color">#fafafa</color>
+    <color name="nav_divider">#FAFAFA</color>
+    <color name="tabsScrollColor">#CDDC39</color>
+    <color name="tabsScrollNotSelected">#4DB6AC</color>
+    <color name="tabsScrollSelected">#CDDC39</color>
+
+
+
+
+    <!--<color name="colorPrimary">#212121</color>-->
+    <!--<color name="colorPrimaryDark">#000000</color>-->
+    <!--<color name="colorPrimaryLight">#2D2D2D</color>-->
+    <!--<color name="progressBarBack">#e1e1e1</color>-->
+    <!--<color name="card_color">#ffffff</color>-->
+    <!--<color name="editTextBack">#e1e1e1</color>-->
+    <!--<color name="textColorPrimary">#212121</color>-->
+    <!--<color name="windowBackground">#FFFFFF</color>-->
+    <!--<color name="navigationBarColor">#000000</color>-->
+    <!--<color name="colorAccent">#FF5722</color>-->
+    <!--<color name="navColor">#FF5722</color>-->
+    <!--<color name="light_text">#727272</color>-->
+    <!--<color name="white_text">#ffffff</color>-->
+    <!--<color name="dark_text">#212121</color>-->
+    <!--<color name="divider">#353434</color>-->
+    <!--<color name="bg_color">#fafafa</color>-->
+    <!--<color name="nav_divider">#353434</color>-->
+    <!--<color name="tabsScrollColor">#FF5722</color>-->
+    <!--<color name="tab_not_scrolled">#424242</color>-->
+    <!--<color name="tabsScrollNotSelected">#616161</color>-->
+    <!--<color name="tabsScrollSelected">#FF5722</color>-->
+
+</resources>

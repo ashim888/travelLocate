@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tbDetailsDetails"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCatDetails"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tvcatDetailsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textSize="@dimen/title_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:padding="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/ibtnAboutUsCall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:visibility="gone"
+                        app:elevation="1dp"
+                        app:fabSize="mini"
+                        app:pressedTranslationZ="2dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/ibtnAboutUsWeb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/ic_action_web"
+                        app:elevation="1dp"
+                        app:fabSize="mini"
+                        app:pressedTranslationZ="2dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/ibtnAboutUsFb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/ic_about_fb"
+                        app:elevation="1dp"
+                        app:fabSize="mini"
+                        app:pressedTranslationZ="2dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal">
+
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/ibtnAboutUsTweet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/ic_about_twitter"
+                        app:elevation="1dp"
+                        app:fabSize="mini"
+                        app:pressedTranslationZ="2dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/tvcatDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textSize="@dimen/sub_title_text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
